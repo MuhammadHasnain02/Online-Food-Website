@@ -29,11 +29,12 @@ body{
 }
 
 .navDiv2{
-    background-color: antiquewhite;
+    background-color: white;
     margin-left: -120px;
     margin-right: -110px;
     display: flex;
     justify-content: space-around;
+    box-shadow: 10px 10px 10px rgb(190, 188, 188);
 }
 .navLogo{
     width: 90px;
@@ -43,7 +44,7 @@ body{
     margin-top: 25px;
     margin-bottom: 25px;
     padding-left: 20px;
-    padding-right: 140px;
+    padding-right: 45px;
     width: 600px;
     border-radius: 10px;
 }
@@ -51,8 +52,14 @@ body{
 .searchInDiv{
     display: flex;
     flex-direction: row;
+    position: absolute;
+    top: 92px;
+    left: 930px;
 }
-
+.searchIcon{
+    width: 30px;
+    height: 30px;
+}
 .div2Part{
     display: flex;
     align-items: center;
@@ -71,3 +78,14 @@ body{
     background-color: rgb(184, 12, 98);
 }
 /* Navbar */
+
+/* SLIDER */
+.maindivcard{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.sliderSet{
+    background-color: rgb(237, 236, 236);
+    height: 600px;
+}
+/* SLIDER */
